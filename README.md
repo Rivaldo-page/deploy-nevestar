@@ -95,7 +95,7 @@ Criar chave SSH (chave pública e privada).
 ssh-keygen -t rsa -b 4096 -C "seu-email@exemplo.com"
 ```
 ```
-ssh-keygen -t rsa -b 4096 -C "cesar@celke.com.br"
+ssh-keygen -t rsa -b 4096 -C "rivaldoantonioneves@gmail.com"
 ```
 
 - Senha usada na aula, não utilizar a mesma: 58C8s3#7fX5x
@@ -131,7 +131,7 @@ Remover os arquivos do servidor.
 rm -rf /home/user/htdocs/endereco-do-servidor/{*,.*}
 ```
 ```
-rm -rf /home/user/htdocs/srv566492.hstgr.cloud/{*,.*}
+rm -rf /home/nevestar/htdocs/www.nevestar.co.mz/{*,.*}
 ```
 
 ## Conectar Servidor ao GitHub
@@ -172,7 +172,7 @@ Hi nome-usuario! You've successfully authenticated, but GitHub does not provide 
 
 Usar o terminal conectado ao servidor. Primeiro acessar o diretório do projeto no servidor.
 ```
-cd /home/user/htdocs/srv566492.hstgr.cloud
+cd /home/nevestar/htdocs/www.nevestar.co.mz
 ```
 
 Baixar os arquivos do Git.
@@ -264,7 +264,7 @@ php artisan key:generate
 
 Alterar a propriedade do diretório.
 ```
-sudo chown -R user:user /home/user/htdocs/srv566492.hstgr.cloud
+sudo chown -R nevestar:nevestar /home/nevestar/htdocs/www.nevestar.co.mz
 ```
 
 Verificar as vulnerabilidades.

@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('content')
+@section('content') 
     <div class="content">
         <div class="content-title">
             <h1 class="page-title">Listar os Usuários</h1>
@@ -62,7 +62,7 @@
                         </div>
                     @endforelse
                 </tbody>
-            </table>
+             </table>
         </div>
 
         <div class="pagination">

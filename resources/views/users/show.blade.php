@@ -17,7 +17,7 @@
                     @csrf
                     @method('delete')
                     <button type="button" class="btn-danger"
-                        onclick="confirmDelete({{ $user->id }})">Apagar</button>
+                        onclick="confirmDelete('{{ $user->id }}')">Apagar</button>
                 </form>
 
             </span>

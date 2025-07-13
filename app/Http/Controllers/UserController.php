@@ -46,6 +46,59 @@ class UserController extends Controller
         return view('users.show', ['user' => $user]);
     }
 
+    // Carregar a pagina nevestar
+    public function nevestar()
+    {
+        // Carregar a VIEW
+        return view('users.nevestar');
+    }
+
+    // Carregar a pagina software
+    public function software()
+    {
+        // Carregar a VIEW
+        return view('users.software');
+    }
+
+    // Carregar a pagina mobile
+    public function mobile()
+    {
+        // Carregar a VIEW
+        return view('users.mobile');
+    }
+
+    // Carregar a pagina web
+    public function web()
+    {
+        // Carregar a VIEW
+        return view('users.web');
+    }
+
+    // Carregar a pagina Desktop
+    public function desktop()
+    {
+        // Carregar a VIEW
+        return view('users.desktop');
+    }
+    // Carregar a pagina plans
+    public function plans()
+    {
+        // Carregar a VIEW
+        return view('users.plans');
+    }
+    // Carregar a pagina about
+    public function about()
+    {
+        // Carregar a VIEW
+        return view('users.about');
+    }
+    // Carregar a pagina contact
+    public function contact()
+    {
+        // Carregar a VIEW
+        return view('users.contact');
+    }
+
     // Carregar o formulário cadastrar novo usuário
     public function create()
     {
